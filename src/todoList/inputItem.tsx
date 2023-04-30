@@ -17,6 +17,7 @@ const InputItem = ({ items, setItems }: Props) => {
 
   const ClickButton = () => {
     if (itemName === "") {
+      //빈공간 확인하는
       alert("빈 공백입니다.");
       return;
     } else {

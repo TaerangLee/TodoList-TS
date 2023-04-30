@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: pink;
+}
+
 .container {
   background-color: linear-gradient(to right bottom, #529252, #192831);
   width: 100%;
@@ -19,7 +23,7 @@
   min-height: 650px;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 3px 6px 40px #000;
+  box-shadow: 10px 10px 50px #000;
   margin-bottom: 10px;
 }
 
@@ -92,4 +96,5 @@
   height: 40px;
   border: none;
   border-radius: 5px;
+  outline: none;
 }

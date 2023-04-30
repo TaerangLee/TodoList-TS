@@ -6,14 +6,12 @@ import ItemList from "./todoList/ItemList";
 import InputItem from "./todoList/inputItem";
 
 function App() {
-  const saveItem = localStorage["todos"]
-    ? JSON.parse(localStorage.getItem("todos") || "[]")
-    : [];
-  const [items, setItems] = useState<Item[]>([saveItem]);
+  const saveItem = JSON.parse(localStorage.getItem("todos") || "[]");
+  const [items, setItems] = useState<Item[]>(saveItem);
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(items));
-  });
+  }, [items]);
 
   const [item, setItem] = useState<Item[]>([]);
   return (
