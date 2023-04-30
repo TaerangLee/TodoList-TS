@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TaerangLee/TodoList-TS/static/css/main.7ca76be5.css",
+    "main.js": "/TaerangLee/TodoList-TS/static/js/main.2a8b520b.js",
+    "static/js/787.97a945da.chunk.js": "/TaerangLee/TodoList-TS/static/js/787.97a945da.chunk.js",
+    "index.html": "/TaerangLee/TodoList-TS/index.html",
+    "main.7ca76be5.css.map": "/TaerangLee/TodoList-TS/static/css/main.7ca76be5.css.map",
+    "main.2a8b520b.js.map": "/TaerangLee/TodoList-TS/static/js/main.2a8b520b.js.map",
+    "787.97a945da.chunk.js.map": "/TaerangLee/TodoList-TS/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ca76be5.css",
+    "static/js/main.2a8b520b.js"
+  ]
+}
