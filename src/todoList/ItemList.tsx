@@ -26,11 +26,17 @@ const ItemList = ({ items, setItems }: Props) => {
       <ul>
         {items.map((data: Item) => {
           return (
-            <li key={data.itemId}>
-              <p>{data.itemName}</p>
+            <li className="list-item" key={data.itemId}>
+              <p className={data.clear ? `success` : ``}>{data.itemName}</p>
               <div>
-                <button onClick={() => ClickDelete(data)}>{`삭제`}</button>
-                <button onClick={() => ClickSuccess(data)}>{`성공`}</button>
+                <button
+                  className="button-delete"
+                  onClick={() => ClickDelete(data)}
+                >{`삭제`}</button>
+                <button
+                  className="button-success"
+                  onClick={() => ClickSuccess(data)}
+                >{`성공`}</button>
               </div>
             </li>
           );

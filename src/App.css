@@ -13,7 +13,8 @@
 }
 
 .app-wrapper {
-  background-color: #446d9fba;
+  background-color: rgb(247 189 189);
+
   min-width: 450px;
   min-height: 650px;
   padding: 30px;
@@ -32,14 +33,63 @@
   text-indent: 10px;
   outline: none;
   width: 260px;
-  height: 25px;
+  height: 35px;
   margin-right: 25px;
   font-size: 20px;
-  color: white;
-  background-color: #000;
+  color: black;
+  opacity: 80%;
+  background-color: gray;
+
   border: 1px solid red;
   border-radius: 9px;
 }
 
 .button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #529252;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid#ccc;
+  color: #fff;
+  padding: 10px;
+  max-height: 30px;
+  justify-content: space-around;
+}
+
+.button-delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.button-success {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.success {
+  text-decoration: solid;
+  text-decoration-line: line-through;
+  opacity: 1;
+}
+
+.made {
+  width: 60px;
+  font-size: 15px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
 }
